@@ -15,11 +15,11 @@ body{
 }
 
 .wrapper-content {
+  display: flex;
  width: 144rem;
  padding-top: 4rem;
  padding-right: 6rem;
  padding-left: 4rem;
-  
 }
 
 .ident{
@@ -96,6 +96,12 @@ body{
 }
 
 .info-All .info li p {
+  color: #837E9F;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
   color: #837E9F;
 }
 
@@ -189,5 +195,146 @@ body{
 
 }
 
+.education{
+  width: 34.8rem;
+  height: 35.2rem;
+
+  background: #302F3D;
+  border-radius: 2rem;
+  box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.2);
+
+  margin-top: 3rem;
+}
+
+.education h2{
+  font-weight: 700;
+  font-size: 2.0rem;
+  line-height: 2.5rem;
+  padding-left: 2rem;
+  padding-top: 3rem;
+
+  color: #837E9F;
+}
+
+.education ul {
+  color: #837E9F;
+  padding-left: 6rem;
+  margin-top: 20px;
+}
+
+.education ul p{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #837E9F;
+  margin-top: 25px;
+}
+
+/*===================== Conteudo Principal  ===================== */
+
+.widgets{
+  width: 100rem;
+}
+
+.navbar{
+  width: 98rem;
+  height: 8.6rem;
+
+  background: #302F3D;
+  border-radius: 2rem;
+  box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.2);
+
+   margin-left: 6rem;
+}
+
+.navbar header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 70.0rem;
+  padding-top: 3.0rem;
+}
+
+.navbar header h3{
+  font-weight: 700;
+  font-size: 2.0rem;
+  line-height: 2.5rem;
+  color: #837E9F;
+}
+
+.navbar header p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: #837E9F;
+}
+
+.cards{
+  display: flex; 
+}
+
+.cards .card-1 {
+  width: 46.1rem;
+  height: 18.6rem;
+  background: #302F3D;
+  border-radius: 2rem;
+  box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.2);
+  margin-left: 6rem;
+  margin-top: 3rem;
+
+}
+
+.cards .card-1 .folder{
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 2.2rem;
+}
+
+.cards .card-1 .folder p{
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.0rem;
+
+  color: #837E9F;
+}
+
+.cards .card-1 span{
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  padding-left: 3rem;
+  
+
+  color: #837E9F;
+  display: inline-block;
+}
+
+.cards .card-1 .icons-card-1{
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  margin-top: 30px;
+  gap: 1rem;
+}
+
+.cards .card-1 .icons-card-1 p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+
+.cards .card-1 .icons-card-1 .light-1{
+  display: flex;
+  align-items: center;
+  padding-left: 190px;
+  gap: 1rem;
+}
  
  
