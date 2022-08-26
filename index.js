@@ -19,7 +19,7 @@ const redReveal = ScrollReveal({
 })
 
 redReveal.reveal(
-  `.widgtes .navbar, .widgtes .cards .card-1
+  `.widgtes .navbar, .widgtes .cards .card-1, .widgtes .navbar-2, .widgtes .post
   `,
   { interval: 100 }
 )

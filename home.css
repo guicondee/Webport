@@ -38,8 +38,7 @@ body{
   height: 12.8rem;
 
   border-radius: 50%;
-  border: 2px solid #A9A9A9;
-
+  border: 2px solid  #00FF00;
   margin: 3.2rem 11rem 3rem 11rem;
 }
 
@@ -137,21 +136,17 @@ body{
 
 .tecs .skills ul li button {
   font-weight: 700;
+  
   font-size: 1.0rem;
   line-height: 1.3rem;
   text-align: center;
   
-  color: #000000;font-weight: 700;
-  font-size: 1.0rem;
-  line-height: 1.3rem;
-  text-align: center;
-
   color: #000000;
 
   width: 8.6rem;
   height: 2.4em;
 
-  background: 	#00FFFF;
+  background: #2E8B57;
   border-radius: 1rem;
   border: none;
 
@@ -327,7 +322,7 @@ body{
   font-size: 14px;
   line-height: 18px;
 
-  color: #837E9F;
+  color: #00FF00;
 }
 
 .cards .card-1 .icons-card-1 .light-1{
@@ -336,5 +331,96 @@ body{
   padding-left: 190px;
   gap: 1rem;
 }
+
+.navbar-2{
+  width: 98rem;
+  height: 8.6rem;
+
+  background: #302F3D;
+  border-radius: 2rem;
+  box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.2);
+
+  margin-top: 3rem;
+  margin-left: 6rem;
+}
+
+.navbar-2 header h3{
+  font-weight: 700;
+  font-size: 2.0rem;
+  line-height: 2.5rem;
+  color: #837E9F;
+
+  padding-left: 3rem;
+  padding-top: 3rem;
+}
+
+.post {
+  display: flex;
+
+  width: 98rem;
+  height: 20.1rem;
+
+  margin-top: 3rem;
+  margin-left: 6rem;
+
+  background: #302F3D;
+  border-radius: 2rem;
+  box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.2);
+}
+
+.post img{
+  border-radius: 50%;
+  width: 12.8rem;
+  height: 12.8rem;
+
+  margin: 3.1rem 2rem 4.2rem 3rem;
+}
+
  
+
+.content {
+   margin-top: 3rem;
+}
+
+.content p:first-child{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #837E9F;
+
+}
  
+.content span{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #837E9F;
+}
+
+.content p{
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #837E9F; 
+
+margin-top: 2.2rem;
+}
+
+.post .content .tags ul{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.post .content .tags ul li{
+  font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+color: #837E9F;
+
+}
