@@ -31,14 +31,17 @@ body{
   box-shadow: .2rem .2rem .2rem .1rem rgba(0, 0, 0, 0.2);
 
   margin-bottom: 3rem;
+  
 }
-
+ 
 .ident img {
   width: 12.8rem;
   height: 12.8rem;
 
   border-radius: 50%;
-  border: 2px solid  #00FF00;
+  border: 2px solid  aliceblue;
+  /* border: 2px solid  #00FF00; */
+  
   margin: 3.2rem 11rem 3rem 11rem;
 }
 
@@ -137,21 +140,31 @@ body{
 .tecs .skills ul li button {
   font-weight: 700;
   
-  font-size: 1.0rem;
-  line-height: 1.3rem;
+  
+  font-size: 1rem;
+  line-height: 2.5rem;
   text-align: center;
   
   color: #000000;
+  
 
   width: 8.6rem;
   height: 2.4em;
 
-  background: #2E8B57;
+  background: #C0C0C0;
   border-radius: 1rem;
+  
   border: none;
+  cursor: pointer;
 
   text-transform: uppercase;
+  transition: 0.3s;
+}
 
+.tecs .skills ul li button:hover{
+  transform: translateY(-08px);
+
+  filter: brightness(1.6);
 }
 
 .experiences {
@@ -322,7 +335,8 @@ body{
   font-size: 14px;
   line-height: 18px;
 
-  color: #00FF00;
+  /* color: #00FF00; */
+  color: 	#F5F5F5;
 }
 
 .cards .card-1 .icons-card-1 .light-1{
